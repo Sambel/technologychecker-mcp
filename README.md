@@ -106,14 +106,6 @@ Restart Cursor. Same six tools available to the agent.
 
 Full tool schemas at https://technologychecker.ai/mcp
 
-## Example prompts
-
-Try these from your MCP-enabled client:
-
-- Find SaaS websites using Stripe and Webflow in the US.
-- Show companies that recently adopted Anthropic SDK or Pinecone.
-- Get the technology stack for vercel.com and summarize the GTM-relevant tools.
-
 ## REST API
 
 Same data is available via REST at https://technologychecker.ai/api/docs.
