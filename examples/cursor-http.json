@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "technologychecker": {
+      "type": "http",
+      "url": "https://technologychecker.ai/api/mcp/technologychecker",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}

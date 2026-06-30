@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "technologychecker": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://technologychecker.ai/api/mcp/technologychecker",
+        "--header",
+        "Authorization: Bearer YOUR_API_KEY"
+      ]
+    }
+  }
+}
