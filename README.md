@@ -1,11 +1,19 @@
 # TechnologyChecker.ai MCP Server
 
-Query website technology stacks from Claude, Cursor, Zed, and other MCP-compatible clients.
+**Find leads your competitors won't.** Query website technology stacks from Claude, Cursor,
+Zed, and other MCP-compatible clients. Six tools, plain English, no Python wrapper.
 
 This is documentation and configuration for the **official remote MCP endpoint** at
 `https://technologychecker.ai/api/mcp/technologychecker`. There is no local server
-to install. Add the endpoint to your AI client of choice and the agent gets six
-tools for querying the live tech-stack database.
+to install. Add the endpoint to your AI client of choice and the agent queries the
+live tech-stack database in plain English.
+
+## Why MCP
+
+Model Context Protocol is the standard Anthropic released for letting AI agents talk
+to external services. Instead of copy-pasting data into ChatGPT or writing custom
+Python scripts, the agent connects directly to a service like ours and queries it
+natively. Setup is 60 seconds : paste a JSON config into your client, restart, done.
 
 ## What you can do with it
 
@@ -18,6 +26,19 @@ GTM teams, and AI SDR workflows. From your agent, you can:
 - Browse the 7,500+ technology catalog
 - Detect adoption and removal signals across 18 months of history
 - Add matching sites to curated lists you can later export
+
+## Example prompts
+
+These are the queries your agent will actually send :
+
+- "Find me 100 US SaaS using Stripe + Vercel + Anthropic SDK with at least 10k monthly
+  visits. Pin them to a list called 'AI-native targets'."
+- "Show every site that adopted Anthropic SDK in the last 30 days. Export domains +
+  traffic as CSV."
+- "Get the full tech stack for vercel.com and summarize the GTM-relevant tools."
+- "Which companies removed Drift in the last 90 days ? Pin the top 50 by traffic."
+- "List the top 20 ecommerce sites using Shopify Plus in Germany with traffic over
+  100k."
 
 ## Endpoint
 
