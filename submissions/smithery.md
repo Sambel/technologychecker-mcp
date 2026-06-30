@@ -5,7 +5,7 @@
 - **Name**: TechnologyChecker.ai
 - **Slug**: technologychecker
 - **Website**: https://technologychecker.ai/
-- **Repository**: TODO: add GitHub repo URL once the public repo is created
+- **Repository**: https://github.com/Sambel/technologychecker-mcp
 - **MCP docs**: https://technologychecker.ai/mcp
 - **MCP endpoint**: https://technologychecker.ai/api/mcp/technologychecker
 - **REST API docs**: https://technologychecker.ai/api/docs
